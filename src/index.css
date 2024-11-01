@@ -1,0 +1,38 @@
+@import "@govtechsg/sgds-web-component/themes/day.css";
+html {
+  box-sizing: border-box;
+  font-family: sans-serif; /* Set a default font family */
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: var(--sgds-padding-lg);
+  height: 100%;
+  width: 100%;
+  background-color: var(--sgds-default-bg-translucent-subtle);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: var(--sgds-gap-md);
+  margin-top: var(--sgds-margin-md);
+}
+
+.container {
+  padding: var(--sgds-padding-md);
+  border-radius: var(--sgds-border-radius-md);
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px #161A1D08;
+}
+.form-container {
+  margin-top: var(--sgds-margin-md);
+}
+.reset-btn{
+  margin-right: auto;
+}
