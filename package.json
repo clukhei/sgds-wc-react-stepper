@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@govtechsg/sgds-web-component": "^3.0.0-rc.1",
+    "@govtechsg/sgds-web-component": "^3.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
